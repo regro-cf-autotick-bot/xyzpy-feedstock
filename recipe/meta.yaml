@@ -1,5 +1,5 @@
 {% set name = "xyzpy" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xyzpy-{{ version }}.tar.gz
-  sha256: 4f38442994da28f53a3dc6510750bbf793def5ad085f4f51804473490de080c6
+  sha256: 23fdf1b25b8d4687dcd3247d4f881c24abaf1b60b3de0b4f89f573c9ef5cf193
 
 build:
   number: 0
